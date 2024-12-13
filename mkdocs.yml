@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Digital blue. My garden
+repo_url: https://github.com/vesnikos/digital-blue
+repo_name: vesnikos/digital-blue
+copyright: © 2024, Nikos Ves
+markdown_extensions:
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+plugins:
+  - tags
+theme:
+ font:
+  text: "Playwrite Netherland Guides"
+ name: material
+ language: en
+ features:
+  - navigation.indexes
+  - toc.integrate
+  - navigation.top
+validation:
+  anchors: warn
+  omitted_files: warn
