@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Digital blue. My garden
 repo_url: https://github.com/vesnikos/vesnikos.github.io/
-repo_name: vesnikos/digital-blue
+repo_name: vesnikos/vesnikos.github.io/
 copyright: © 2024, Nikos Ves
 markdown_extensions:
   - footnotes
