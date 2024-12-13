@@ -1,22 +1,37 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Digital blue. My garden
-repo_url: https://github.com/vesnikos/vesnikos.github.io/
-repo_name: vesnikos/vesnikos.github.io/
-copyright: © 2024, Nikos Ves
+repo_url: https://github.com/vesnikos/vesnikos.github.io
+repo_name: vesnikos/vesnikos.github.io
+copyright: © 2024 Nikos Ves
 markdown_extensions:
   - footnotes
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
 plugins:
   - tags
 theme:
- name: material
- language: en
- features:
-  - navigation.indexes
-  - toc.integrate
-  - navigation.top
+  icon:
+    repo: fontawesome/brands/github
+  palette: 
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  name: material
+  language: en
+  features:
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
 validation:
   anchors: warn
   omitted_files: warn
