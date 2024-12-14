@@ -2,12 +2,13 @@
 site_name: Digital blue. My garden
 repo_url: https://github.com/vesnikos/vesnikos.github.io
 repo_name: vesnikos/vesnikos.github.io
-copyright: © 2024 Nikos Ves
+copyright:  © 2024 Nikos Ves. <br> The content and opinions expressed on this website are my own and not those of my employer.
 markdown_extensions:
   - footnotes
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.blocks.caption
   - attr_list
   - md_in_html
 plugins:
@@ -29,6 +30,8 @@ theme:
   name: material
   language: en
   features:
+    - content.code.copy
+    - content.code.annotate
     - navigation.indexes
     - toc.integrate
     - navigation.top

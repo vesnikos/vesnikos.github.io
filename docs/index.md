@@ -1,6 +1,7 @@
 # Welcome
 
-This simple site is a collection of notes and documentation about topics that have encounted over the years in work or personal projects.  
+This simple site is a collection about topics that have encounted over the years in work or personal projects.
+  
 Usually pages are in the form of blogposts, tutorials or guides. 
 
 You can navigate through the pages using the sidebar on the left.
